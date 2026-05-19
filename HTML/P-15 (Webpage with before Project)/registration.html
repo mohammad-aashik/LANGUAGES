@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game Festival Registration</title>
+        <style>
+            body {
+                background-image: linear-gradient(
+                rgba(255,255,255,0.7),
+                rgba(255,255,255,0.7)
+                ), 
+                url(bg.jpg);
+                background-size: cover;
+                padding-bottom: 50px;
+            }
+
+            /* CSS Styles for heading */
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 60px;
+                text-align: center;
+                color: brown;
+                font-weight: bold;
+                text-shadow: 2px 2px 5px gray;
+            }
+
+            div {
+                width: 50%;
+                margin: auto;
+                padding: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+
+            form {
+                background-color: rgba(255,255,255,0.8);
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px gray;
+            }
+
+            input {
+                width: 90%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            select {
+                width: 95%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .btn {
+                background-color: green;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                width: 200px;
+                display: block;
+                margin: auto;
+            }
+
+            .btn:hover {
+                background-color: red;
+            }
+
+            .btn:active {
+                transform: scale(0.95);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Game Festival Registration</h1>
+        <div>
+            <form action="success.html">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="game">Game:</label>
+                <select id="game" name="game" required>
+                    <option value="">Select a game</option>
+                    <option value="chess">Chess</option>
+                    <option value="carrom">Carrom</option>
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="fifa24">FIFA 24</option>
+                    <option value="cod">Call of Duty: Modern Warfare II</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Register" class="btn">
+            </form>
+        </div>
+    </body>
+</html>

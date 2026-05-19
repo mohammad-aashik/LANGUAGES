@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Project - 15</title>
+
+        <style>
+
+            body {
+                background-image: linear-gradient(
+                rgba(255,255,255,0.7),
+                rgba(255,255,255,0.7)
+                ), 
+                url(bg.jpg);
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* CSS Styles for heading */
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 60px;
+                text-align: center;
+                color: brown;
+                font-weight: bold;
+                text-shadow: 2px 2px 5px gray;
+            }
+
+            /* CSS Styles for paragraph */
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                color: black;
+                text-align: center;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 50px;
+                line-height: 35px;
+            }
+
+            /* CSS Styles for table */
+            table {
+                width: 80%;
+                margin: auto;
+                border-collapse: collapse;
+                margin-bottom: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+
+                background-color: rgb(70, 70, 70);
+                color: white;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0px 0px 15px gray;
+            }
+
+            /* CSS Styles for table cells */
+            th, td {
+                padding: 10px;
+                text-align: center;
+                border: 1px solid rgba(255,255,255,0.2);
+            }
+
+            th {
+                background-color: rgb(93, 131, 164);
+            }
+
+            tr {
+                transition: 0.2s;
+            }
+
+            /* CSS Styles for subheading */
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                text-align: left;
+                color: black;
+                margin-bottom: 20px;
+                margin-left: 75px;
+            }
+
+                /* CSS Styles for unordered list */
+            ul {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                color: black;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 50px;
+            }
+
+            /* CSS Styles for links */
+            .my_div:hover {
+                background-color: brown;
+                transform: scale(1.05);
+                box-shadow: 0px 0px 20px brown;
+            }
+
+            .my_div:hover a {
+                color: white;
+            }
+
+            .my_div {
+                transition: 0.2s;
+                cursor: pointer;
+                box-shadow: 0px 0px 10px gray;
+                text-align: center;
+                border: 1px solid grey;
+                padding: 10px;
+                width: 200px;
+                margin: auto;
+                background-color: lightgray;
+                border-radius: 10px;
+                transition: all 0.2s ease;
+            }
+
+            .my_div:active {
+                transform: scale(0.95);
+            }
+
+            .my_link {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                color: rgb(179, 49, 60);
+                text-decoration: none;
+            }
+
+            .rules_div {
+                width: 80%;
+                margin: auto;
+            }
+
+            tr:hover {
+                background-color: rgba(255,255,255,0.1);
+            }
+
+            li {
+                margin-bottom: 10px;
+                display: flex;
+                gap: 10px;
+                align-items: flex-start;
+            }
+
+            tr:nth-child(even) {
+                background-color: rgba(255,255,255,0.2);
+            }
+
+            .table_wrapper {
+                width: 80%;
+                margin: auto;
+                overflow-x: auto;
+            }   
+
+            @media (max-width: 768px) {
+            h1 {
+                font-size: 35px;
+            }
+
+            table, p, ul {
+                width: 95%;
+            }
+            }
+
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+
+        <h1>
+            Game Festival 2024
+        </h1>
+
+        <div>
+
+            <p>
+                Welcome to the Game Festival 2024! This event celebrates the joy of gaming with a variety of games for all ages. Whether you enjoy indoor board games, outdoor sports, or video games, there's something for everyone to enjoy. Join us for a fun-filled day of gaming and camaraderie!
+            </p>
+
+        </div>
+
+        <!-- Table to display game categories, names, and player counts -->
+        <div class="table_wrapper">
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Game</th>
+                    <th>Players</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Indoor</td>
+                <td>Chess</td>
+                <td>2-4</td>
+            </tr>
+            <tr>
+                <td>Carrom</td>
+                <td>2-6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Outdoor</td>
+                <td>Cricket</td>
+                <td>11-15 per team</td>
+            </tr>
+            <tr>
+                <td>Football</td>
+                <td>11 per team</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Video Games</td>
+                <td>FIFA 24</td>
+                <td>1-4</td>
+            </tr>
+            <tr>
+                <td>Call of Duty: Modern Warfare II</td>
+                <td>1-4</td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="rules_div">
+            <!-- Subheading for game rules and regulations -->
+            <h2>
+                Game Rules and Regulations
+            </h2>
+
+            <ul>
+                <li><strong>Chess</strong>: Players take turns moving pieces, with the goal of capturing the opponent's king.</li>
+                <li><strong>Carrom</strong>: Players compete to collect sets of cards and score points.</li>
+                <li><strong>Cricket</strong>: Teams take turns batting and fielding to score runs.</li>
+                <li><strong>Football</strong>: Teams aim to score goals by getting the ball into the opponent's net.</li>
+                <li><strong>FIFA 24</strong>: Players control teams and compete in virtual matches.</li>
+                <li><strong>Call of Duty: Modern Warfare II</strong>: Features intense combat scenarios and multiplayer modes.</li>
+            </ul>
+
+        </div>
+
+        <!-- Go to registration -->
+        <div class="my_div">
+
+            <a href="registration.html" class="my_link">
+                Go to Registration
+            </a>
+
+        </div>
+    </body>
+</html>
