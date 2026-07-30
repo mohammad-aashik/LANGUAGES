@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.zoo_img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #903f3f;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
