@@ -1,0 +1,91 @@
+nav {
+    background-color: #6a6a6a; /* dark background color */
+    padding: 10px 0;            /* give padding left and right */
+}
+
+nav ul {                        /* style the unordered list inside the nav */
+    list-style-type: none;      /* remove bullet points */
+    margin: 0;                  /* remove default margin */
+    padding: 0;                 /* remove default padding */
+    display: flex;              /* use flexbox for horizontal layout */
+    justify-content: center;    /* center the items horizontally */
+}
+
+nav ul li {                     /* style each list item */
+    margin: 0 20px;             /* add horizontal spacing between items */
+}
+
+nav ul li a {                   /* style the anchor tags inside list items */
+    color: white;               /* white text color */
+    text-decoration: none;      /* remove underline from links */
+    font-size: 20px;            /* set font size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* set font family */
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;  /* set font family for paragraphs */
+    font-size: 18px;            /* set font size for paragraphs */
+    color: #333;              /* dark gray text color for better readability */
+    text-align: center;          /* center align the text */
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    color: #333;
+}
+
+.sk {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    list-style: none;           /* remove bullet points from list items */
+
+}
+
+.img_row {
+    display: flex;              /* use flexbox for horizontal layout */
+    justify-content: center;    /* center the items horizontally */
+    gap: 40px;                  /* add spacing between images */
+}
+
+.img_box {
+    overflow: hidden;           /* hide any overflow content */
+    border-radius: 10px;        /* round the corners of the image boxes */
+    text-align: center;         /* center the text inside the image boxes */
+    overflow: hidden;           /* hide any overflow content */
+}
+
+.img_box img {
+    width: 250px;                /* make images take full width of their container */
+    height: 150px;               /* maintain aspect ratio */
+    border-radius: 10px;        /* round the corners of the images */
+}
+
+.img_box img:hover {
+    transform: scale(1.05);      /* scale up the image on hover */
+    transition: transform 0.3s;  /* smooth transition for scaling */
+}
+
+.img_box p {
+    margin-top: 10px;           /* add spacing above the paragraph */
+    font-size: 19px;            /* set font size for the paragraph */
+    color: #555;                /* set a lighter gray color for the text */
+    font-weight: bold;              /* make the text bold */
+}
+
+form {
+    display: flex;              /* use flexbox for layout */
+    flex-direction: column;     /* stack form elements vertically */
+    align-items: center;        /* center the form elements horizontally */
+    gap: 15px;                  /* add spacing between form elements */
+    margin-top: 20px;           /* add spacing above the form */
+}
+
+.inp {
+    width: 300px;               /* set a fixed width for input fields */
+    padding: 10px;              /* add padding inside the input fields */
+    border: 1px solid #000;     /* light gray border */
+    border-radius: 5px;         /* round the corners of the input fields */
+    font-size: 16px;            /* set font size for input text */
+}
