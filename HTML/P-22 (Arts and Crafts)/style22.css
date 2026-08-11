@@ -1,0 +1,20 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #0B1F3A;
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+.head_div {
+    background-image: url(bc.png);
+    height: 250px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    
+}
