@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.form-bc {
+    background-color: rgb(97, 120, 150);
+    width: 32%;
+    height: 100%;
+    padding: 30px;
+}
+
+.form-img img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 4px;
+    border: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #5c0808;
+    margin: 0;
+    font-weight: bold;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 6px 12px;
+    vertical-align: top;
+    color: #000;
+}
+
+td.lable {
+    width: 35%;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 60px;
+    resize: vertical;
+    color: #888;
+}
+
+.sub-reset {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.sub-reset input[type="Submit"],
+.sub-reset input[type="Reset"] {
+    padding: 3px 12px;
+    background-color: #e0e0e0;
+    border: 1px solid #777;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.sub-reset input[type="submit"]:hover,
+.sub-reset input[type="reset"]:hover {
+    background-color: #d0d0d0;
+}

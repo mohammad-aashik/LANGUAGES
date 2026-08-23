@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .form-container {
+    background-color: #6c7a8f; /* Olive green background */
+    padding: 30px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  .form-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .form-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    background-color: #fff; /* Placeholder styling for avatar icon */
+    border-radius: 4px;
+  }
+
+  .form-header h1 {
+    color: rgb(89, 3, 3); /* Dark red / maroon heading color */
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+td {
+  padding: 6px 4px;
+  vertical-align: top;
+  color: #000; /* Dark text for field labels */
+}
+
+  td.label {
+    width: 35%;
+    font-weight: normal;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+
+  textarea {
+    height: 60px;
+    resize: vertical;
+    color: #888;
+  }
+
+  .radio-group, .checkbox-group {
+    color: #000;
+  }
+
+  .radio-group label, .checkbox-group label {
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .checkbox-group div {
+    margin-bottom: 4px;
+  }
+
+  .button-group {
+    margin-top: 15px;
+  }
+
+.button-group input[type="submit"],
+.button-group input[type="reset"] {
+  padding: 3px 12px;
+  background-color: #e0e0e0;
+  border: 1px solid #777;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.button-group input[type="submit"]:hover,
+.button-group input[type="reset"]:hover {
+  background-color: #d0d0d0;
+}
+  

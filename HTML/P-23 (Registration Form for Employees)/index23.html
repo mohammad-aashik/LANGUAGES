@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form for Employees
+        </title>
+        <link rel="stylesheet" href="style23.css">
+    </head>
+
+    <body>
+        
+        <div class="form-bc">
+            <!-- Heading and amployee Image -->
+            <div class="form-header">
+                <div class="form-img">
+                    <img src="emp.png" alt="profile-image">
+                </div>
+                <h1>
+                    Employee Registration Form
+                </h1>
+            </div>
+            <form>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" id="mr" value="Mr." name="title">
+                            <label for="mr">Mr.</label>
+
+                            <input type="radio" id="mrs" value="Mrs." name="title">
+                            <label for="mrs">Mrs.</label>
+
+                            <input type="radio" id="ms" value="Ms." name="title">
+                            <label for="ms">Ms.</label>
+
+                            <input type="radio" id="miss" value="Miss." name="title">
+                            <label for="miss">Miss.</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="name">First Name</label></td>
+                        <td>
+                            <input type="text" id="name" placeholder="First Name" >
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="name">Last Name</label></td>
+                        <td>
+                            <input type="text" id="Last_name" placeholder="Last  Name" >
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email Address</label></td>
+                        <td>
+                            <input type="email" id="email" placeholder="Email">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="City">City</label></td>
+                        <td>
+                            <input type="text" id="city" placeholder="City">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Province">Province</label></td>
+                        <td>
+                            <select name="trxt" id="province">
+                                <option value="Western">Western</option>
+                                <option value="Central">Central</option>
+                                <option value="Southern">Southern</option>
+                                <option value="Northern">Northern</option>
+                                <option value="Eestern">Eestern</option>
+                                <option value="North Western">North Western</option>
+                                <option value="North Central">North Central</option>
+                                <option value="Uva">Uva</option>
+                                <option value="Sabragamuwa">Sabragamuwa</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Zip">Zip</label></td>
+                        <td>
+                            <input type="number" id="zip" placeholder="Zip">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Upload Photo">Upload Photo</label></td>
+                        <td>
+                            <input type="file" id="file" placeholder="Choose File">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Mobile">Mobile</label></td>
+                        <td>
+                            <input type="tel" name="number" id="number" value="+94">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Languages known">Languages known</label></td>
+                        <td>
+                            <div>
+                            <input type="checkbox" id="english" value="English">
+                            <label for="english">English</label>
+                            </div>
+
+                            <div>
+                            <input type="checkbox" id="Tamil" value="Tamil">
+                            <label for="Tamil">Tamil</label>
+                            </div>
+
+                            <div>
+                            <input type="checkbox" id="Sinhala" value="Sinhala">
+                            <label for="Sinhala">Sinhala</label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Additional Information">Additional Information</label></td>
+                        <td>
+                            <textarea name="text" id="text">Option</textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td class="sub-reset">
+                            <input type="Submit" value="submit">
+                            <input type="Reset" value="reset">
+                        </td>
+                        
+                    </tr>
+
+                </table>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>

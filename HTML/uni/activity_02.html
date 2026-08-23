@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Registration Form</title>
+  <link rel="stylesheet" href="activity_02.css">
+    
+</head>
+<body>
+
+  <div class="form-container">
+    <!-- Header with Icon and Title -->
+    <div class="form-header">
+      <!-- Replace 'avatar-placeholder.png' with your image file path -->
+      <img src="activity_02.png" alt="Employee Icon">
+      <h1>Employee Registration Form</h1>
+    </div>
+
+    <!-- Form -->
+    <form action="#" method="post" enctype="multipart/form-data">
+      <table>
+        <!-- Salutation Radio Buttons -->
+        <tr>
+          <td class="radio-group">
+            <input type="radio" id="mr" name="salutation" value="Mr.">
+            <label for="mr">Mr.</label>
+
+            <input type="radio" id="mrs" name="salutation" value="Mrs.">
+            <label for="mrs">Mrs.</label>
+
+            <input type="radio" id="ms" name="salutation" value="Ms.">
+            <label for="ms">Ms.</label>
+          </td>
+        </tr>
+
+        <!-- First Name -->
+        <tr>
+          <td class="label"><label for="first_name">First Name</label></td>
+          <td><input type="text" id="first_name" name="first_name" placeholder="First Name"></td>
+        </tr>
+
+        <!-- Last Name -->
+        <tr>
+          <td class="label"><label for="last_name">Last Name</label></td>
+          <td><input type="text" id="last_name" name="last_name" placeholder="Last Name"></td>
+        </tr>
+
+        <!-- Email Address -->
+        <tr>
+          <td class="label"><label for="email">Email Address</label></td>
+          <td><input type="email" id="email" name="email" placeholder="Email Address"></td>
+        </tr>
+
+        <!-- City -->
+        <tr>
+          <td class="label"><label for="city">City</label></td>
+          <td><input type="text" id="city" name="city" placeholder="City"></td>
+        </tr>
+
+        <!-- Province -->
+        <tr>
+          <td class="label"><label for="province">Province</label></td>
+          <td>
+            <select id="province" name="province">
+              <option value="Western">Western</option>
+              <option value="Central">Central</option>
+              <option value="Southern">Southern</option>
+              <option value="Northern">Northern</option>
+              <option value="Eastern">Eastern</option>
+              <option value="North Western">North Western</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- Zip -->
+        <tr>
+          <td class="label"><label for="zip">Zip</label></td>
+          <td><input type="text" id="zip" name="zip"></td>
+        </tr>
+
+        <!-- Upload Photo -->
+        <tr>
+          <td class="label"><label for="photo">Upload Photo</label></td>
+          <td><input type="file" id="photo" name="photo"></td>
+        </tr>
+
+        <!-- Mobile -->
+        <tr>
+          <td class="label"><label for="mobile">Mobile</label></td>
+          <td><input type="text" id="mobile" name="mobile" value="+94"></td>
+        </tr>
+
+        <!-- Languages Known -->
+        <tr>
+          <td class="label">Languages known</td>
+          <td class="checkbox-group">
+            <div>
+              <input type="checkbox" id="sinhala" name="languages" value="Sinhala" checked>
+              <label for="sinhala">Sinhala</label>
+            </div>
+            <div>
+              <input type="checkbox" id="english" name="languages" value="English">
+              <label for="english">English</label>
+            </div>
+            <div>
+              <input type="checkbox" id="tamil" name="languages" value="Tamil">
+              <label for="tamil">Tamil</label>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Additional Information -->
+        <tr>
+          <td class="label"><label for="additional_info">Additional Information</label></td>
+          <td><textarea id="additional_info" name="additional_info" placeholder="Optional"></textarea></td>
+        </tr>
+
+        <!-- Buttons -->
+        <tr>
+          <td></td>
+          <td class="button-group">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+</body>
+</html>
