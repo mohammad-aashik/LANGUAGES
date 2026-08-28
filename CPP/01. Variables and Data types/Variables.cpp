@@ -79,7 +79,7 @@ Logical Operators
 */
 
 //          ------- STRING -------
-
+/*
 string first_name = "Mohammad";
 string last_name = "Aashik";
 
@@ -89,7 +89,21 @@ cout<< first_name.append(last_name) << endl;
 cout<< first_name.length() << endl; // 14
 cout<< first_name.size() << endl;
 cout<< first_name[10] << endl; //
-cout<< first_name[13] << endl;
+cout<< first_name[13] << endl;             // cout<< first_name.at(13) << endl;
+cout<< first_name[4] << endl;
+cout<< first_name.at(13) << endl;
+
+cout<< first_name << endl;      // MohammadAashik
+first_name[13] = 'f';
+cout<< first_name << endl;      // MohammadAashif
+*/
+
+string name;
+cout<< "Enter your Name : ";        // M.S.M. Aashik
+cin>> name;                                             // M.S.M.       ==> reson is cin cosider two word as a 2 input
+getline(cin, name);                                     // M.S.M. Aashik
+cout<< "Your Name is : "<<name;
+
 
 return 0;
 
