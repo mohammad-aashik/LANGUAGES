@@ -52,6 +52,7 @@ int main(){
         break; 
            
     default:
+        cout<< "Invalid Day"<<endl;
         break;
     }
 
