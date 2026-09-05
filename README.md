@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Mohammad%20Aashik&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20Undergraduate%20%7C%20Software%20Engineering%20%7C%20AI&descAlignY=58&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Mohammad%20Aashik&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20Undergraduate%20%7C%20Software%20%7C%20AI%20%7C%20Embedded%20Systems&descAlignY=58&descSize=17"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+Real-World+Projects;Learning+Software+Engineering;Exploring+Artificial+Intelligence;Developing+With+C%2C+C%2B%2B+%26+Python;Turning+Ideas+Into+Real+Projects" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=Building+Real-World+Projects;Learning+Software+Engineering;Exploring+Artificial+Intelligence;Developing+With+C%2C+C%2B%2B+%26+Python;Building+Robotics+Projects;Turning+Ideas+Into+Reality" alt="Typing SVG"/>
 
 <br/><br/>
 
@@ -12,6 +12,10 @@
 
 <br/><br/>
 
+<a href="https://github.com/mohammad-aashik">
+<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
 <a href="https://www.linkedin.com/in/mohammad-aashik">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
@@ -20,45 +24,46 @@
 <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://github.com/mohammad-aashik">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
 </div>
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
 ```yaml
 name: Mohammad Aashik
 education: BEng (Hons) in Computer Engineering
 role: Computer Engineering Undergraduate
 
-focus:
+interests:
   - Software Engineering
   - Artificial Intelligence
-  - Data Science
-  - Cyber Security
   - Embedded Systems
+  - Robotics
+  - Cyber Security
+  - Data Science
 
 currently_learning:
   - C++
   - Data Structures & Algorithms
   - Java
+  - Python
   - Flutter
   - Web Development
   - Artificial Intelligence
 
 mindset:
-  Learn → Build → Share → Improve
+  Learn → Build → Test → Improve → Share
 ```
 
-I am a Computer Engineering undergraduate passionate about building practical
-software and technology solutions.
+I am a Computer Engineering undergraduate passionate about **software,
+artificial intelligence, embedded systems, and robotics**.
 
-I enjoy programming, learning new technologies, developing real-world projects,
-and exploring AI, software engineering, embedded systems, and cybersecurity.
+I enjoy turning ideas into practical projects, experimenting with new
+technologies, and continuously improving my programming and engineering skills.
+
+My goal is to become a **professional software engineer and technology builder**
+capable of creating real-world solutions.
 
 ---
 
@@ -88,6 +93,14 @@ and exploring AI, software engineering, embedded systems, and cybersecurity.
 <img src="https://skillicons.dev/icons?i=nodejs,flask,mysql,firebase"/>
 </p>
 
+### 🤖 Embedded & Robotics
+
+<p>
+<img src="https://skillicons.dev/icons?i=arduino,cpp"/>
+</p>
+
+`ESP32` `IR Sensors` `ToF Sensors` `Servo Motors` `TB6612FNG` `Robotics`
+
 ### 🔧 Tools
 
 <p>
@@ -96,42 +109,39 @@ and exploring AI, software engineering, embedded systems, and cybersecurity.
 
 ---
 
-# 🚀 My Learning Journey
+# 🚀 Featured Projects
 
-```text
-Computer Engineering
-        ↓
-Programming Fundamentals
-        ↓
-Software Development
-        ↓
-Data Structures & Algorithms
-        ↓
-AI & Advanced Computing
-        ↓
-Real-World Projects
-        ↓
-Professional Software Engineer
-```
+## 🤖 NEXORAX — Autonomous Robot
 
-### 📚 Currently Exploring
+An autonomous robotics project developed for a university robot competition.
 
-- Artificial Intelligence
-- Machine Learning
-- Data Structures & Algorithms
-- Software Engineering
-- Embedded Systems
-- Cyber Security
-- Mobile Application Development
-- Modern Programming Languages
+The robot combines **line following, dotted-line detection, object handling,
+color detection, wall following, and autonomous navigation**.
 
-> Learn → Build → Share → Improve
+**Tech Stack:**
+
+`ESP32` `C++` `TB6612FNG` `IR Sensors` `ToF Sensors` `Servo Motors`
+
+🔗 **Repository:**
+https://github.com/mohammad-aashik/ROBOT
 
 ---
 
-# 🌟 Featured Projects
+## ⚡ AuvoraX Programming Language
 
-## 🔢 Project 01 — Mathematics Learning Application
+An experimental programming language project focused on exploring programming
+language design, syntax, type systems, scope management, and compiler concepts.
+
+**Tech Stack:**
+
+`C++` `Compiler Development` `Programming Language Design`
+
+🔗 **Repository:**
+https://github.com/mohammad-aashik/LANGUAGES
+
+---
+
+## 🔢 Mathematics Learning Application
 
 A mobile application designed to help students learn and practice mathematics
 through an interactive and user-friendly platform.
@@ -142,10 +152,10 @@ through an interactive and user-friendly platform.
 
 ---
 
-## 🧮 Project 02 — Grade Calculator
+## 🧮 Grade Calculator
 
-A programming project designed to calculate grades and provide
-structured academic results based on user input.
+A programming project designed to calculate grades and provide structured
+academic results based on user input.
 
 **Tech Stack:**
 
@@ -153,15 +163,42 @@ structured academic results based on user input.
 
 ---
 
-## ⚡ Project 03 — AuvoraX Programming Language
+# 🧠 Learning Journey
 
-An experimental modern programming language project focused on
-powerful syntax, advanced type systems, capabilities, scope management,
-and developer-friendly programming concepts.
+```text
+Programming Fundamentals
+          ↓
+     C / C++ / Python
+          ↓
+ Software Development
+          ↓
+Data Structures & Algorithms
+          ↓
+  Embedded & Robotics
+          ↓
+ Artificial Intelligence
+          ↓
+ Real-World Projects
+          ↓
+Professional Software Engineer
+```
 
-**Tech Stack:**
+---
 
-`C++` `Programming Language Design` `Compiler Development`
+# 📚 Currently Learning
+
+* 💻 C++
+* 🧠 Data Structures & Algorithms
+* ☕ Java
+* 🐍 Python
+* 📱 Flutter & Dart
+* 🤖 Embedded Systems
+* 🧠 Artificial Intelligence
+* 🔐 Cyber Security
+* 🌐 Web Development
+* ⚙️ Software Engineering
+
+> **Learn → Build → Test → Improve → Share**
 
 ---
 
@@ -176,12 +213,14 @@ learning:
   - Artificial Intelligence
 
 building:
-  - Mathematics Learning Application
+  - NEXORAX Autonomous Robot
   - AuvoraX Programming Language
+  - Mathematics Learning Application
   - Personal Software Projects
 
 exploring:
   - Artificial Intelligence
+  - Robotics
   - Embedded Systems
   - Cyber Security
   - Advanced Software Engineering
@@ -189,9 +228,8 @@ exploring:
 goal:
   - Become a Professional Software Engineer
   - Build Real-World Technology Products
+  - Create Useful Solutions Through Technology
 ```
-
-> 🚀 Focused on learning, building, and turning ideas into real-world solutions.
 
 ---
 
@@ -217,12 +255,22 @@ goal:
 
 ---
 
-# 🐙 Explore My GitHub
+# 🐙 Explore My Projects
 
 <div align="center">
 
 <a href="https://github.com/mohammad-aashik">
 <img src="https://img.shields.io/badge/Explore%20My%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/mohammad-aashik/ROBOT">
+<img src="https://img.shields.io/badge/🤖%20NEXORAX%20Robot-7C3AED?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/mohammad-aashik/LANGUAGES">
+<img src="https://img.shields.io/badge/⚡%20AuvoraX-6D28D9?style=for-the-badge"/>
 </a>
 
 <br/><br/>
@@ -259,14 +307,10 @@ goal:
 
 ### 🚀 Keep Building. Keep Learning. Keep Growing.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Code+%7C+Learn+%7C+Build+%7C+Grow;One+Project+At+A+Time+%F0%9F%9A%80;Turning+Ideas+Into+Reality+%E2%9C%A8" alt="Footer Animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Code+%7C+Learn+%7C+Build+%7C+Grow;One+Project+At+A+Time+%F0%9F%9A%80;Turning+Ideas+Into+Reality+%E2%9C%A8;Engineering+The+Future+%F0%9F%A4%96" alt="Footer Animation"/>
 
 <br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
-
-
-
-enakku c# un therium 
