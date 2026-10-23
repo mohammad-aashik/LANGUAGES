@@ -6,6 +6,7 @@ int main() {
 
     int a = 5;                                                    // Declare an integer variable 'a' and initialize it with the value 10
     cout << "The value of a is: " << a << endl;                   // Output the value of 'a' to the console
+    cout<<&a<<endl;
 
     int* p = &a;                                                  // Declare a pointer 'p' and initialize it with the address of 'a'
     cout << "The address of a is: " << p << endl;                 // Output the address of 'a' to the console
@@ -26,7 +27,10 @@ int main() {
     cout << "The value of a after changing the value of the memory cell where p is pointing: " << a << endl;  // Output the new value of 'a' after changing the value of the memory cell where 'p' is pointing to   
 
     // print the address of the pointer variable itself
-    cout << "Address of the pointer variable p is: " << &p << endl;   
+    cout << "Address of the pointer variable p is: " << &p << endl;  
+    
+    cout<<p<<endl;
+    cout<<*p<<endl;
 
     return 0;
 }
